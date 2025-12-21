@@ -1,0 +1,7 @@
+[workspace]
+members = [
+    "arreis-core",
+    "arreis-server",
+    "arreis-worker",
+]
+resolver = "2"
