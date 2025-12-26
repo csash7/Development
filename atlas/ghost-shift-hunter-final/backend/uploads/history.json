@@ -1,0 +1,506 @@
+[
+  {
+    "id": "e3b33c9f",
+    "timestamp": "2025-12-21T23:14:51.985281",
+    "image_url": "/uploads/e3b33c9f_sample-manifest.png",
+    "worker_count": 4,
+    "issue_count": 2,
+    "result": {
+      "shifts": [
+        {
+          "shift_id": "SH-1341",
+          "worker_id": "TRB-100",
+          "worker_name": "John Doe",
+          "scheduled_start": "08:00",
+          "scheduled_end": "16:00",
+          "gps_check_in": "07:55",
+          "gps_check_out": "16:05",
+          "status": "COMPLETED"
+        },
+        {
+          "shift_id": "SH-2147",
+          "worker_id": "TRB-101",
+          "worker_name": "Jane Smith",
+          "scheduled_start": "08:00",
+          "scheduled_end": "16:00",
+          "gps_check_in": "07:55",
+          "gps_check_out": "16:05",
+          "status": "COMPLETED"
+        },
+        {
+          "shift_id": "SH-8140",
+          "worker_id": "TRB-102",
+          "worker_name": "Michael Johnson",
+          "scheduled_start": "08:00",
+          "scheduled_end": "16:00",
+          "gps_check_in": "07:55",
+          "gps_check_out": "16:05",
+          "status": "COMPLETED"
+        },
+        {
+          "shift_id": "SH-6144",
+          "worker_id": "TRB-103",
+          "worker_name": "Alex Walker",
+          "scheduled_start": "08:00",
+          "scheduled_end": "16:00",
+          "gps_check_in": "07:55",
+          "gps_check_out": "16:05",
+          "status": "COMPLETED"
+        },
+        {
+          "shift_id": "SH-6054",
+          "worker_id": "TRB-GHOST",
+          "worker_name": "Marcus Rivera",
+          "scheduled_start": "08:00",
+          "scheduled_end": "16:00",
+          "gps_check_in": "07:59",
+          "gps_check_out": "16:02",
+          "status": "COMPLETED"
+        }
+      ],
+      "cleaned_logs": [
+        {
+          "original_line": 1,
+          "standardized_name": "John Doe",
+          "standardized_time": "07:55",
+          "standardized_time_out": "16:05",
+          "supervisor_initials": "B. Davis",
+          "raw_fields": {
+            "Name": "John Doe",
+            "Role": "Packer",
+            "Time In": "07:55",
+            "Time Out": "16:05",
+            "Supervisor": "B. Davis",
+            "Signature": "Signature",
+            "Date": "2025-12-21"
+          }
+        },
+        {
+          "original_line": 2,
+          "standardized_name": "Jane Smith",
+          "standardized_time": "07:58",
+          "standardized_time_out": "16:02",
+          "supervisor_initials": "B. Davis",
+          "raw_fields": {
+            "Name": "Jane Smith",
+            "Role": "Packer",
+            "Time In": "07:58",
+            "Time Out": "16:02",
+            "Supervisor": "B. Davis",
+            "Signature": "Jane Smith",
+            "Date": "2025-12-21"
+          }
+        },
+        {
+          "original_line": 3,
+          "standardized_name": "Michael Johnson",
+          "standardized_time": "08:15",
+          "standardized_time_out": "15:30",
+          "supervisor_initials": "K. Lee",
+          "raw_fields": {
+            "Name": "Michael Johnson",
+            "Role": "Forklift",
+            "Time In": "08:15",
+            "Time Out": "15:30",
+            "Supervisor": "K. Lee",
+            "Signature": "Michael J.",
+            "Date": "2025-12-21"
+          }
+        },
+        {
+          "original_line": 4,
+          "standardized_name": "Alex Walker",
+          "standardized_time": "08:00",
+          "standardized_time_out": "16:00",
+          "supervisor_initials": "B. Davis",
+          "raw_fields": {
+            "Name": "Alex Walker",
+            "Role": "Temp",
+            "Time In": "08:00",
+            "Time Out": "16:00",
+            "Supervisor": "B. Davis",
+            "Signature": "Alex Walker",
+            "Date": "2025-12-21"
+          }
+        }
+      ],
+      "column_headers": [
+        "Name",
+        "Role",
+        "Time In",
+        "Time Out",
+        "Supervisor"
+      ],
+      "logs": [],
+      "gemini_verified": true
+    },
+    "reports": [
+      {
+        "worker_id": "TRB-100",
+        "worker_name": "John Doe",
+        "has_issue": false,
+        "issue_type": "CLEAN",
+        "confidence": 0.93,
+        "reasoning": "Paper log matches the rostered worker and aligns with GPS times within tolerance; arrival is not late relative to scheduled start.",
+        "evidence": [
+          "Roster: scheduled 08:00\u201316:00; GPS 07:55\u201316:05 (SH-1341).",
+          "Paper line 1: Time In 07:55; Time Out 16:05; Supervisor B. Davis.",
+          "No time-theft: paper in equals GPS in (0 min difference).",
+          "Not late: check-in 5 min before scheduled start."
+        ],
+        "matched_fields": [
+          "worker_name",
+          "scheduled_start vs arrival (not late)",
+          "paper Time In vs gps_check_in",
+          "paper Time Out vs gps_check_out"
+        ],
+        "mismatched_fields": [],
+        "flags": [],
+        "paper_data": {
+          "Name": "John Doe",
+          "Role": "Packer",
+          "Time In": "07:55",
+          "Time Out": "16:05",
+          "Supervisor": "B. Davis",
+          "Signature": "Signature",
+          "Date": "2025-12-21"
+        },
+        "database_data": {
+          "Name": "John Doe",
+          "Scheduled Start": "08:00",
+          "Scheduled End": "16:00",
+          "GPS Check-In": "07:55",
+          "GPS Check-Out": "16:05",
+          "Status": "COMPLETED"
+        }
+      },
+      {
+        "worker_id": "TRB-101",
+        "worker_name": "Jane Smith",
+        "has_issue": false,
+        "issue_type": "CLEAN",
+        "confidence": 0.84,
+        "reasoning": "Worker appears on both roster and paper; paper sign-in is later than GPS check-in (not time theft under rules). Minor timing differences do not trigger any defined issue.",
+        "evidence": [
+          "Roster: scheduled 08:00\u201316:00; GPS 07:55\u201316:05 (SH-2147).",
+          "Paper line 2: Time In 07:58; Time Out 16:02; Supervisor B. Davis.",
+          "No time-theft: paper in is 3 min after GPS in (rule checks earlier-than-GPS by >5).",
+          "Not late: both arrivals are before 08:00."
+        ],
+        "matched_fields": [
+          "worker_name",
+          "scheduled_start vs arrival (not late)"
+        ],
+        "mismatched_fields": [
+          {
+            "field_name": "check_in",
+            "paper_value": "07:58",
+            "database_value": "07:55",
+            "matches": false
+          },
+          {
+            "field_name": "check_out",
+            "paper_value": "16:02",
+            "database_value": "16:05",
+            "matches": false
+          }
+        ],
+        "flags": [
+          "MINOR_TIME_VARIANCE"
+        ],
+        "paper_data": {
+          "Name": "Jane Smith",
+          "Role": "Packer",
+          "Time In": "07:58",
+          "Time Out": "16:02",
+          "Supervisor": "B. Davis",
+          "Signature": "Jane Smith",
+          "Date": "2025-12-21"
+        },
+        "database_data": {
+          "Name": "Jane Smith",
+          "Scheduled Start": "08:00",
+          "Scheduled End": "16:00",
+          "GPS Check-In": "07:55",
+          "GPS Check-Out": "16:05",
+          "Status": "COMPLETED"
+        }
+      },
+      {
+        "worker_id": "TRB-102",
+        "worker_name": "Michael Johnson",
+        "has_issue": true,
+        "issue_type": "LATE_ARRIVAL",
+        "confidence": 0.86,
+        "reasoning": "Both sources show arrival more than 10 minutes after the scheduled 08:00 start (paper 08:15). Although GPS shows early check-in, the presence of a clearly late paper sign-in suggests the worker did not actually start on time; treat as late arrival per rule focus on corroborated lateness.",
+        "evidence": [
+          "Roster: scheduled start 08:00 (SH-8140).",
+          "Paper line 3: Time In 08:15 (15 min late).",
+          "Paper indicates late arrival beyond 10-minute threshold.",
+          "Supervisor differs from others (K. Lee), reinforcing that this is a distinct entry."
+        ],
+        "matched_fields": [
+          "worker_name",
+          "scheduled_start"
+        ],
+        "mismatched_fields": [
+          {
+            "field_name": "arrival_time",
+            "paper_value": "08:15",
+            "database_value": "07:55",
+            "matches": false
+          },
+          {
+            "field_name": "check_out",
+            "paper_value": "15:30",
+            "database_value": "16:05",
+            "matches": false
+          }
+        ],
+        "flags": [
+          "LATE_BY_15_MIN",
+          "EARLY_PAPER_DEPARTURE_NOT_EVALUATED_BY_RULES"
+        ],
+        "paper_data": {
+          "Name": "Michael Johnson",
+          "Role": "Forklift",
+          "Time In": "08:15",
+          "Time Out": "15:30",
+          "Supervisor": "K. Lee",
+          "Signature": "Michael J.",
+          "Date": "2025-12-21"
+        },
+        "database_data": {
+          "Name": "Michael Johnson",
+          "Scheduled Start": "08:00",
+          "Scheduled End": "16:00",
+          "GPS Check-In": "07:55",
+          "GPS Check-Out": "16:05",
+          "Status": "COMPLETED"
+        }
+      },
+      {
+        "worker_id": "TRB-103",
+        "worker_name": "Alex Walker",
+        "has_issue": false,
+        "issue_type": "CLEAN",
+        "confidence": 0.88,
+        "reasoning": "Worker matches across roster and paper. Arrival is on time; small differences between paper and GPS are within acceptable variance and do not trigger any rule-based issue.",
+        "evidence": [
+          "Roster: scheduled 08:00\u201316:00; GPS 07:55\u201316:05 (SH-6144).",
+          "Paper line 4: Time In 08:00; Time Out 16:00; Supervisor B. Davis.",
+          "No time-theft: paper in is 5 min after GPS in (rule checks earlier-than-GPS by >5).",
+          "Not late: paper arrival equals scheduled start."
+        ],
+        "matched_fields": [
+          "worker_name",
+          "scheduled_start vs arrival (not late)"
+        ],
+        "mismatched_fields": [
+          {
+            "field_name": "check_in",
+            "paper_value": "08:00",
+            "database_value": "07:55",
+            "matches": false
+          },
+          {
+            "field_name": "check_out",
+            "paper_value": "16:00",
+            "database_value": "16:05",
+            "matches": false
+          }
+        ],
+        "flags": [
+          "MINOR_TIME_VARIANCE"
+        ],
+        "paper_data": {
+          "Name": "Alex Walker",
+          "Role": "Temp",
+          "Time In": "08:00",
+          "Time Out": "16:00",
+          "Supervisor": "B. Davis",
+          "Signature": "Alex Walker",
+          "Date": "2025-12-21"
+        },
+        "database_data": {
+          "Name": "Alex Walker",
+          "Scheduled Start": "08:00",
+          "Scheduled End": "16:00",
+          "GPS Check-In": "07:55",
+          "GPS Check-Out": "16:05",
+          "Status": "COMPLETED"
+        }
+      },
+      {
+        "worker_id": "TRB-GHOST",
+        "worker_name": "Marcus Rivera",
+        "has_issue": true,
+        "issue_type": "GHOST_SHIFT",
+        "confidence": 0.97,
+        "reasoning": "Worker is present in the digital roster with completed GPS in/out but has no corresponding entry in the physical paper log.",
+        "evidence": [
+          "Roster includes Marcus Rivera (TRB-GHOST), scheduled 08:00\u201316:00; GPS 07:59\u201316:02 (SH-6054).",
+          "No paper log line contains the name Marcus Rivera.",
+          "Meets rule: in roster but missing from paper => GHOST_SHIFT."
+        ],
+        "matched_fields": [],
+        "mismatched_fields": [
+          {
+            "field_name": "presence_on_paper",
+            "paper_value": "MISSING",
+            "database_value": "PRESENT",
+            "matches": false
+          }
+        ],
+        "flags": [
+          "NO_PAPER_ENTRY"
+        ],
+        "paper_data": {},
+        "database_data": {
+          "Name": "Marcus Rivera",
+          "Scheduled Start": "08:00",
+          "Scheduled End": "16:00",
+          "GPS Check-In": "07:59",
+          "GPS Check-Out": "16:02",
+          "Status": "COMPLETED"
+        }
+      }
+    ]
+  },
+  {
+    "id": "d49c7700",
+    "timestamp": "2025-12-21T23:08:57.277837",
+    "image_url": "/uploads/d49c7700_sample-manifest.png",
+    "worker_count": 4,
+    "issue_count": 0,
+    "result": {
+      "shifts": [
+        {
+          "shift_id": "SH-8032",
+          "worker_id": "TRB-100",
+          "worker_name": "John Doe",
+          "scheduled_start": "08:00",
+          "scheduled_end": "16:00",
+          "gps_check_in": "07:55",
+          "gps_check_out": "16:05",
+          "status": "COMPLETED"
+        },
+        {
+          "shift_id": "SH-9995",
+          "worker_id": "TRB-101",
+          "worker_name": "Jane Smith",
+          "scheduled_start": "08:00",
+          "scheduled_end": "16:00",
+          "gps_check_in": "07:55",
+          "gps_check_out": "16:05",
+          "status": "COMPLETED"
+        },
+        {
+          "shift_id": "SH-7457",
+          "worker_id": "TRB-102",
+          "worker_name": "Michael Johnson",
+          "scheduled_start": "08:00",
+          "scheduled_end": "16:00",
+          "gps_check_in": "07:55",
+          "gps_check_out": "16:05",
+          "status": "COMPLETED"
+        },
+        {
+          "shift_id": "SH-7719",
+          "worker_id": "TRB-103",
+          "worker_name": "Alex Walker",
+          "scheduled_start": "08:00",
+          "scheduled_end": "16:00",
+          "gps_check_in": "07:55",
+          "gps_check_out": "16:05",
+          "status": "COMPLETED"
+        },
+        {
+          "shift_id": "SH-7624",
+          "worker_id": "TRB-GHOST",
+          "worker_name": "Marcus Rivera",
+          "scheduled_start": "08:00",
+          "scheduled_end": "16:00",
+          "gps_check_in": "07:59",
+          "gps_check_out": "16:02",
+          "status": "COMPLETED"
+        }
+      ],
+      "cleaned_logs": [
+        {
+          "original_line": 1,
+          "standardized_name": "John Doe",
+          "standardized_time": "07:55",
+          "standardized_time_out": "16:05",
+          "supervisor_initials": "B. Davis",
+          "raw_fields": {
+            "Name": "John Doe",
+            "Role": "Packer",
+            "Time In": "07:55",
+            "Time Out": "16:05",
+            "Supervisor": "B. Davis",
+            "Signature": "Signature",
+            "Date": "2025-12-21"
+          }
+        },
+        {
+          "original_line": 2,
+          "standardized_name": "Jane Smith",
+          "standardized_time": "07:58",
+          "standardized_time_out": "16:02",
+          "supervisor_initials": "B. Davis",
+          "raw_fields": {
+            "Name": "Jane Smith",
+            "Role": "Packer",
+            "Time In": "07:58",
+            "Time Out": "16:02",
+            "Supervisor": "B. Davis",
+            "Signature": "Jane Smith",
+            "Date": "2025-12-21"
+          }
+        },
+        {
+          "original_line": 3,
+          "standardized_name": "Michael Johnson",
+          "standardized_time": "08:15",
+          "standardized_time_out": "15:30",
+          "supervisor_initials": "K. Lee",
+          "raw_fields": {
+            "Name": "Michael Johnson",
+            "Role": "Forklift",
+            "Time In": "08:15",
+            "Time Out": "15:30",
+            "Supervisor": "K. Lee",
+            "Signature": "Michael J.",
+            "Date": "2025-12-21"
+          }
+        },
+        {
+          "original_line": 4,
+          "standardized_name": "Alex Walker",
+          "standardized_time": "08:00",
+          "standardized_time_out": "16:00",
+          "supervisor_initials": "B. Davis",
+          "raw_fields": {
+            "Name": "Alex Walker",
+            "Role": "Temp",
+            "Time In": "08:00",
+            "Time Out": "16:00",
+            "Supervisor": "B. Davis",
+            "Signature": "Alex Walker",
+            "Date": "2025-12-21"
+          }
+        }
+      ],
+      "column_headers": [
+        "Name",
+        "Role",
+        "Time In",
+        "Time Out",
+        "Supervisor"
+      ],
+      "logs": [],
+      "gemini_verified": true
+    }
+  }
+]

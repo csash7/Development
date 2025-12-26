@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+:root {
+  /* Cyberpunk / Industrial Palette */
+  --background: #050505;
+  --surface: #0f1012;
+  --surface-highlight: #1a1b1e;
+  
+  --primary: #6d28d9; /* Traba Purple-ish */
+  --primary-glow: #8b5cf6;
+  
+  --success: #10b981;
+  --warning: #f59e0b;
+  --danger: #ef4444;
+  
+  --text-main: #f3f4f6;
+  --text-muted: #9ca3af;
+  --text-dim: #4b5563;
+
+  --border: #27272a;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-surface-highlight: var(--surface-highlight);
+  --color-primary: var(--primary);
+  --color-primary-glow: var(--primary-glow);
+  --color-success: var(--success);
+  --color-warning: var(--warning);
+  --color-danger: var(--danger);
+  --color-text-main: var(--text-main);
+  --color-text-muted: var(--text-muted);
+  --color-text-dim: var(--text-dim);
+  --color-border: var(--border);
+}
+
+body {
+  background: var(--background);
+  color: var(--text-main);
+  font-family: var(--font-sans), system-ui, sans-serif;
+  overflow: hidden; /* App feel */
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--surface);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--surface-highlight);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary);
+}
