@@ -1,0 +1,67 @@
+[
+    {
+        "code": "ATP",
+        "name": "Anantapur",
+        "nameTeugu": "అనంతపురం"
+    },
+    {
+        "code": "CTR",
+        "name": "Chittoor",
+        "nameTeugu": "చిత్తూరు"
+    },
+    {
+        "code": "EGD",
+        "name": "East Godavari",
+        "nameTeugu": "తూర్పు గోదావరి"
+    },
+    {
+        "code": "GNT",
+        "name": "Guntur",
+        "nameTeugu": "గుంటూరు"
+    },
+    {
+        "code": "KRS",
+        "name": "Krishna",
+        "nameTeugu": "కృష్ణా"
+    },
+    {
+        "code": "KNL",
+        "name": "Kurnool",
+        "nameTeugu": "కర్నూలు"
+    },
+    {
+        "code": "NLR",
+        "name": "Nellore",
+        "nameTeugu": "నెల్లూరు"
+    },
+    {
+        "code": "PKM",
+        "name": "Prakasam",
+        "nameTeugu": "ప్రకాశం"
+    },
+    {
+        "code": "SKL",
+        "name": "Srikakulam",
+        "nameTeugu": "శ్రీకాకుళం"
+    },
+    {
+        "code": "VSK",
+        "name": "Visakhapatnam",
+        "nameTeugu": "విశాఖపట్నం"
+    },
+    {
+        "code": "VZN",
+        "name": "Vizianagaram",
+        "nameTeugu": "విజయనగరం"
+    },
+    {
+        "code": "WGD",
+        "name": "West Godavari",
+        "nameTeugu": "పశ్చిమ గోదావరి"
+    },
+    {
+        "code": "YSR",
+        "name": "YSR Kadapa",
+        "nameTeugu": "వైఎస్ఆర్ కడప"
+    }
+]

@@ -1,0 +1,353 @@
+{
+    "VSK": [
+        {
+            "code": "VSK01",
+            "name": "Visakhapatnam Urban",
+            "nameTeugu": "విశాఖపట్నం అర్బన్"
+        },
+        {
+            "code": "VSK02",
+            "name": "Gajuwaka",
+            "nameTeugu": "గాజువాక"
+        },
+        {
+            "code": "VSK03",
+            "name": "Pendurthi",
+            "nameTeugu": "పెందుర్తి"
+        },
+        {
+            "code": "VSK04",
+            "name": "Madhurawada",
+            "nameTeugu": "మధురవాడ"
+        },
+        {
+            "code": "VSK05",
+            "name": "Anakapalle",
+            "nameTeugu": "అనకాపల్లి"
+        }
+    ],
+    "GNT": [
+        {
+            "code": "GNT01",
+            "name": "Guntur Urban",
+            "nameTeugu": "గుంటూరు అర్బన్"
+        },
+        {
+            "code": "GNT02",
+            "name": "Tadepalli",
+            "nameTeugu": "తాడేపల్లి"
+        },
+        {
+            "code": "GNT03",
+            "name": "Mangalagiri",
+            "nameTeugu": "మంగళగిరి"
+        },
+        {
+            "code": "GNT04",
+            "name": "Tenali",
+            "nameTeugu": "తెనాలి"
+        },
+        {
+            "code": "GNT05",
+            "name": "Narasaraopet",
+            "nameTeugu": "నరసరావుపేట"
+        }
+    ],
+    "KRS": [
+        {
+            "code": "KRS01",
+            "name": "Vijayawada Urban",
+            "nameTeugu": "విజయవాడ అర్బన్"
+        },
+        {
+            "code": "KRS02",
+            "name": "Machilipatnam",
+            "nameTeugu": "మచిలీపట్నం"
+        },
+        {
+            "code": "KRS03",
+            "name": "Gudivada",
+            "nameTeugu": "గుడివాడ"
+        },
+        {
+            "code": "KRS04",
+            "name": "Nuzvid",
+            "nameTeugu": "నూజివీడు"
+        },
+        {
+            "code": "KRS05",
+            "name": "Jaggaiahpet",
+            "nameTeugu": "జగ్గయ్యపేట"
+        }
+    ],
+    "EGD": [
+        {
+            "code": "EGD01",
+            "name": "Kakinada Urban",
+            "nameTeugu": "కాకినాడ అర్బన్"
+        },
+        {
+            "code": "EGD02",
+            "name": "Rajahmundry Urban",
+            "nameTeugu": "రాజమహేంద్రవరం అర్బన్"
+        },
+        {
+            "code": "EGD03",
+            "name": "Amalapuram",
+            "nameTeugu": "అమలాపురం"
+        },
+        {
+            "code": "EGD04",
+            "name": "Ramachandrapuram",
+            "nameTeugu": "రామచంద్రపురం"
+        },
+        {
+            "code": "EGD05",
+            "name": "Peddapuram",
+            "nameTeugu": "పెద్దాపురం"
+        }
+    ],
+    "WGD": [
+        {
+            "code": "WGD01",
+            "name": "Eluru",
+            "nameTeugu": "ఏలూరు"
+        },
+        {
+            "code": "WGD02",
+            "name": "Bhimavaram",
+            "nameTeugu": "భీమవరం"
+        },
+        {
+            "code": "WGD03",
+            "name": "Tadepalligudem",
+            "nameTeugu": "తాడేపల్లిగూడెం"
+        },
+        {
+            "code": "WGD04",
+            "name": "Narsapuram",
+            "nameTeugu": "నర్సాపురం"
+        },
+        {
+            "code": "WGD05",
+            "name": "Tanuku",
+            "nameTeugu": "తణుకు"
+        }
+    ],
+    "CTR": [
+        {
+            "code": "CTR01",
+            "name": "Tirupati Urban",
+            "nameTeugu": "తిరుపతి అర్బన్"
+        },
+        {
+            "code": "CTR02",
+            "name": "Chittoor",
+            "nameTeugu": "చిత్తూరు"
+        },
+        {
+            "code": "CTR03",
+            "name": "Madanapalle",
+            "nameTeugu": "మదనపల్లె"
+        },
+        {
+            "code": "CTR04",
+            "name": "Nagari",
+            "nameTeugu": "నగరి"
+        },
+        {
+            "code": "CTR05",
+            "name": "Srikalahasti",
+            "nameTeugu": "శ్రీకాళహస్తి"
+        }
+    ],
+    "NLR": [
+        {
+            "code": "NLR01",
+            "name": "Nellore Urban",
+            "nameTeugu": "నెల్లూరు అర్బన్"
+        },
+        {
+            "code": "NLR02",
+            "name": "Kavali",
+            "nameTeugu": "కావలి"
+        },
+        {
+            "code": "NLR03",
+            "name": "Gudur",
+            "nameTeugu": "గూడూరు"
+        },
+        {
+            "code": "NLR04",
+            "name": "Atmakur",
+            "nameTeugu": "ఆత్మకూరు"
+        },
+        {
+            "code": "NLR05",
+            "name": "Venkatagiri",
+            "nameTeugu": "వెంకటగిరి"
+        }
+    ],
+    "ATP": [
+        {
+            "code": "ATP01",
+            "name": "Anantapur Urban",
+            "nameTeugu": "అనంతపురం అర్బన్"
+        },
+        {
+            "code": "ATP02",
+            "name": "Hindupur",
+            "nameTeugu": "హిందూపురం"
+        },
+        {
+            "code": "ATP03",
+            "name": "Guntakal",
+            "nameTeugu": "గుంతకల్"
+        },
+        {
+            "code": "ATP04",
+            "name": "Tadpatri",
+            "nameTeugu": "తాడిపత్రి"
+        },
+        {
+            "code": "ATP05",
+            "name": "Penukonda",
+            "nameTeugu": "పెనుకొండ"
+        }
+    ],
+    "KNL": [
+        {
+            "code": "KNL01",
+            "name": "Kurnool Urban",
+            "nameTeugu": "కర్నూలు అర్బన్"
+        },
+        {
+            "code": "KNL02",
+            "name": "Nandyal",
+            "nameTeugu": "నంద్యాల"
+        },
+        {
+            "code": "KNL03",
+            "name": "Adoni",
+            "nameTeugu": "ఆదోని"
+        },
+        {
+            "code": "KNL04",
+            "name": "Yemmiganur",
+            "nameTeugu": "ఎమ్మిగనూరు"
+        },
+        {
+            "code": "KNL05",
+            "name": "Dhone",
+            "nameTeugu": "డోన్"
+        }
+    ],
+    "YSR": [
+        {
+            "code": "YSR01",
+            "name": "Kadapa Urban",
+            "nameTeugu": "కడప అర్బన్"
+        },
+        {
+            "code": "YSR02",
+            "name": "Proddatur",
+            "nameTeugu": "ప్రొద్దుటూరు"
+        },
+        {
+            "code": "YSR03",
+            "name": "Rajampet",
+            "nameTeugu": "రాజంపేట"
+        },
+        {
+            "code": "YSR04",
+            "name": "Jammalamadugu",
+            "nameTeugu": "జమ్మలమడుగు"
+        },
+        {
+            "code": "YSR05",
+            "name": "Pulivendla",
+            "nameTeugu": "పులివెందుల"
+        }
+    ],
+    "PKM": [
+        {
+            "code": "PKM01",
+            "name": "Ongole",
+            "nameTeugu": "ఒంగోలు"
+        },
+        {
+            "code": "PKM02",
+            "name": "Chirala",
+            "nameTeugu": "చీరాల"
+        },
+        {
+            "code": "PKM03",
+            "name": "Markapur",
+            "nameTeugu": "మార్కాపురం"
+        },
+        {
+            "code": "PKM04",
+            "name": "Kandukur",
+            "nameTeugu": "కందుకూరు"
+        },
+        {
+            "code": "PKM05",
+            "name": "Giddalur",
+            "nameTeugu": "గిద్దలూరు"
+        }
+    ],
+    "SKL": [
+        {
+            "code": "SKL01",
+            "name": "Srikakulam",
+            "nameTeugu": "శ్రీకాకుళం"
+        },
+        {
+            "code": "SKL02",
+            "name": "Palasa",
+            "nameTeugu": "పలాస"
+        },
+        {
+            "code": "SKL03",
+            "name": "Tekkali",
+            "nameTeugu": "టెక్కలి"
+        },
+        {
+            "code": "SKL04",
+            "name": "Amadalavalasa",
+            "nameTeugu": "అమదాలవలస"
+        },
+        {
+            "code": "SKL05",
+            "name": "Narasannapeta",
+            "nameTeugu": "నరసన్నపేట"
+        }
+    ],
+    "VZN": [
+        {
+            "code": "VZN01",
+            "name": "Vizianagaram",
+            "nameTeugu": "విజయనగరం"
+        },
+        {
+            "code": "VZN02",
+            "name": "Bobbili",
+            "nameTeugu": "బొబ్బిలి"
+        },
+        {
+            "code": "VZN03",
+            "name": "Parvathipuram",
+            "nameTeugu": "పార్వతీపురం"
+        },
+        {
+            "code": "VZN04",
+            "name": "Rajam",
+            "nameTeugu": "రాజాం"
+        },
+        {
+            "code": "VZN05",
+            "name": "Salur",
+            "nameTeugu": "సాలూరు"
+        }
+    ]
+}

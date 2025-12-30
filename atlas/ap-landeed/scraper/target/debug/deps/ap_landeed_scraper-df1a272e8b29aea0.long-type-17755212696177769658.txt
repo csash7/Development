@@ -1,0 +1,2 @@
+fn(axum::extract::State<AppState>, axum::extract::Query<DistrictQuery>) -> impl futures::Future<Output = Result<axum::Json<Vec<models::District>>, AppError>> {list_districts}
+fn(axum::extract::State<AppState>, axum::extract::Query<DistrictQuery>) -> impl futures::Future<Output = Result<axum::Json<Vec<models::District>>, AppError>> {list_districts}: axum::handler::Handler<_, _>

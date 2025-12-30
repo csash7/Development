@@ -1,0 +1,8 @@
+/Users/sriharshachaturvedula/Desktop/Development/atlas/ap-landeed/scraper/target/debug/deps/avif_serialize-c1a898b6d3749cf3.d: /Users/sriharshachaturvedula/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/avif-serialize-0.8.6/src/lib.rs /Users/sriharshachaturvedula/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/avif-serialize-0.8.6/src/boxes.rs /Users/sriharshachaturvedula/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/avif-serialize-0.8.6/src/constants.rs /Users/sriharshachaturvedula/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/avif-serialize-0.8.6/src/writer.rs
+
+/Users/sriharshachaturvedula/Desktop/Development/atlas/ap-landeed/scraper/target/debug/deps/libavif_serialize-c1a898b6d3749cf3.rmeta: /Users/sriharshachaturvedula/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/avif-serialize-0.8.6/src/lib.rs /Users/sriharshachaturvedula/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/avif-serialize-0.8.6/src/boxes.rs /Users/sriharshachaturvedula/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/avif-serialize-0.8.6/src/constants.rs /Users/sriharshachaturvedula/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/avif-serialize-0.8.6/src/writer.rs
+
+/Users/sriharshachaturvedula/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/avif-serialize-0.8.6/src/lib.rs:
+/Users/sriharshachaturvedula/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/avif-serialize-0.8.6/src/boxes.rs:
+/Users/sriharshachaturvedula/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/avif-serialize-0.8.6/src/constants.rs:
+/Users/sriharshachaturvedula/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/avif-serialize-0.8.6/src/writer.rs:

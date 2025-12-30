@@ -1,0 +1,297 @@
+[
+    {
+        "id": "LR001",
+        "surveyNumber": "123",
+        "subDivision": "1A",
+        "district": "Visakhapatnam",
+        "districtCode": "VSK",
+        "mandal": "Madhurawada",
+        "mandalCode": "VSK04",
+        "village": "Rushikonda",
+        "villageCode": "VSK04R01",
+        "coordinates": [
+            83.3820,
+            17.7550
+        ],
+        "owners": [
+            {
+                "name": "Ramesh Kumar Reddy",
+                "nameTeugu": "రమేష్ కుమార్ రెడ్డి",
+                "fatherName": "Venkata Reddy",
+                "aadhaarLast4": "5678",
+                "sharePercentage": 100
+            }
+        ],
+        "extent": {
+            "acres": 2,
+            "guntas": 20,
+            "cents": 0
+        },
+        "landClassification": "Wet Land",
+        "landNature": "Agricultural",
+        "waterSource": "Canal Irrigation",
+        "khataNumber": "KH-2024-00123",
+        "pattaNumber": "PT-VSK-00456",
+        "lastUpdated": "2024-11-15",
+        "status": "active"
+    },
+    {
+        "id": "LR002",
+        "surveyNumber": "456",
+        "subDivision": "2B",
+        "district": "Guntur",
+        "districtCode": "GNT",
+        "mandal": "Mangalagiri",
+        "mandalCode": "GNT03",
+        "village": "Neerukonda",
+        "villageCode": "GNT03N01",
+        "coordinates": [
+            80.4515,
+            16.4307
+        ],
+        "owners": [
+            {
+                "name": "Lakshmi Devi",
+                "nameTeugu": "లక్ష్మీ దేవి",
+                "fatherName": "Suryanarayana",
+                "sharePercentage": 50
+            },
+            {
+                "name": "Srinivas Rao",
+                "nameTeugu": "శ్రీనివాస్ రావు",
+                "fatherName": "Venkateswara Rao",
+                "sharePercentage": 50
+            }
+        ],
+        "extent": {
+            "acres": 1,
+            "guntas": 10,
+            "cents": 50
+        },
+        "landClassification": "Dry Land",
+        "landNature": "Agricultural",
+        "waterSource": "Bore Well",
+        "khataNumber": "KH-2024-00789",
+        "pattaNumber": "PT-GNT-00321",
+        "lastUpdated": "2024-10-20",
+        "status": "active"
+    },
+    {
+        "id": "LR003",
+        "surveyNumber": "789",
+        "district": "Krishna",
+        "districtCode": "KRS",
+        "mandal": "Vijayawada Urban",
+        "mandalCode": "KRS01",
+        "village": "Benz Circle",
+        "villageCode": "KRS01B01",
+        "coordinates": [
+            80.6480,
+            16.5193
+        ],
+        "owners": [
+            {
+                "name": "Mohan Krishna",
+                "nameTeugu": "మోహన్ కృష్ణ",
+                "fatherName": "Ranga Rao",
+                "aadhaarLast4": "1234",
+                "sharePercentage": 100
+            }
+        ],
+        "extent": {
+            "acres": 0,
+            "guntas": 30,
+            "cents": 0
+        },
+        "landClassification": "Urban Land",
+        "landNature": "Residential",
+        "khataNumber": "KH-2024-01234",
+        "pattaNumber": "PT-KRS-00789",
+        "lastUpdated": "2024-12-01",
+        "status": "active"
+    },
+    {
+        "id": "LR004",
+        "surveyNumber": "234",
+        "subDivision": "3",
+        "district": "East Godavari",
+        "districtCode": "EGD",
+        "mandal": "Rajahmundry Urban",
+        "mandalCode": "EGD02",
+        "village": "Dowleswaram",
+        "villageCode": "EGD02D01",
+        "coordinates": [
+            81.8040,
+            17.0119
+        ],
+        "owners": [
+            {
+                "name": "Padma Rao",
+                "nameTeugu": "పద్మ రావు",
+                "fatherName": "Satyanarayana",
+                "sharePercentage": 60
+            },
+            {
+                "name": "Sita Mahalakshmi",
+                "nameTeugu": "సీత మహాలక్ష్మి",
+                "fatherName": "N/A",
+                "sharePercentage": 40
+            }
+        ],
+        "extent": {
+            "acres": 3,
+            "guntas": 0,
+            "cents": 25
+        },
+        "landClassification": "Wet Land",
+        "landNature": "Agricultural",
+        "waterSource": "Godavari River",
+        "khataNumber": "KH-2024-00567",
+        "pattaNumber": "PT-EGD-00234",
+        "lastUpdated": "2024-09-30",
+        "status": "active"
+    },
+    {
+        "id": "LR005",
+        "surveyNumber": "567",
+        "district": "Chittoor",
+        "districtCode": "CTR",
+        "mandal": "Tirupati Urban",
+        "mandalCode": "CTR01",
+        "village": "Tirumala Foot Hills",
+        "villageCode": "CTR01T01",
+        "coordinates": [
+            79.4192,
+            13.6500
+        ],
+        "owners": [
+            {
+                "name": "Govinda Prasad",
+                "nameTeugu": "గోవింద ప్రసాద్",
+                "fatherName": "Narasimha Murthy",
+                "aadhaarLast4": "9012",
+                "sharePercentage": 100
+            }
+        ],
+        "extent": {
+            "acres": 0,
+            "guntas": 15,
+            "cents": 75
+        },
+        "landClassification": "Dry Land",
+        "landNature": "Commercial",
+        "khataNumber": "KH-2024-00890",
+        "pattaNumber": "PT-CTR-00567",
+        "lastUpdated": "2024-11-28",
+        "status": "pending"
+    },
+    {
+        "id": "LR006",
+        "surveyNumber": "890",
+        "subDivision": "A",
+        "district": "Nellore",
+        "districtCode": "NLR",
+        "mandal": "Kavali",
+        "mandalCode": "NLR02",
+        "village": "Mypadu Beach",
+        "villageCode": "NLR02M01",
+        "coordinates": [
+            80.0481,
+            14.1310
+        ],
+        "owners": [
+            {
+                "name": "Venkateshwara Naidu",
+                "nameTeugu": "వెంకటేశ్వర నాయుడు",
+                "fatherName": "Chinna Naidu",
+                "sharePercentage": 100
+            }
+        ],
+        "extent": {
+            "acres": 5,
+            "guntas": 0,
+            "cents": 0
+        },
+        "landClassification": "Coastal Land",
+        "landNature": "Agricultural",
+        "waterSource": "Rain Fed",
+        "khataNumber": "KH-2024-01567",
+        "pattaNumber": "PT-NLR-00890",
+        "lastUpdated": "2024-08-15",
+        "status": "active"
+    },
+    {
+        "id": "LR007",
+        "surveyNumber": "345",
+        "district": "YSR Kadapa",
+        "districtCode": "YSR",
+        "mandal": "Kadapa Urban",
+        "mandalCode": "YSR01",
+        "village": "Kadapa Town",
+        "villageCode": "YSR01K01",
+        "coordinates": [
+            78.8240,
+            14.4674
+        ],
+        "owners": [
+            {
+                "name": "Raja Sekhar",
+                "nameTeugu": "రాజ శేఖర్",
+                "fatherName": "Chandra Sekhar",
+                "aadhaarLast4": "3456",
+                "sharePercentage": 75
+            },
+            {
+                "name": "Aruna Kumari",
+                "nameTeugu": "అరుణ కుమారి",
+                "sharePercentage": 25
+            }
+        ],
+        "extent": {
+            "acres": 1,
+            "guntas": 25,
+            "cents": 0
+        },
+        "landClassification": "Urban Land",
+        "landNature": "Residential",
+        "khataNumber": "KH-2024-00345",
+        "pattaNumber": "PT-YSR-00345",
+        "lastUpdated": "2024-12-10",
+        "status": "active"
+    },
+    {
+        "id": "LR008",
+        "surveyNumber": "678",
+        "subDivision": "2",
+        "district": "Kurnool",
+        "districtCode": "KNL",
+        "mandal": "Nandyal",
+        "mandalCode": "KNL02",
+        "village": "Nandyal Town",
+        "villageCode": "KNL02N01",
+        "coordinates": [
+            78.4836,
+            15.4780
+        ],
+        "owners": [
+            {
+                "name": "Bhaskar Rao",
+                "nameTeugu": "భాస్కర్ రావు",
+                "fatherName": "Subba Rao",
+                "sharePercentage": 100
+            }
+        ],
+        "extent": {
+            "acres": 4,
+            "guntas": 10,
+            "cents": 30
+        },
+        "landClassification": "Dry Land",
+        "landNature": "Agricultural",
+        "waterSource": "Bore Well",
+        "khataNumber": "KH-2024-00678",
+        "pattaNumber": "PT-KNL-00678",
+        "lastUpdated": "2024-07-20",
+        "status": "disputed"
+    }
+]

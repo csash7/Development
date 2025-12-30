@@ -1,0 +1,12 @@
+/Users/sriharshachaturvedula/Desktop/Development/atlas/ap-landeed/scraper/target/debug/deps/serde-5ccd028a1b2a365a.d: /Users/sriharshachaturvedula/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs /Users/sriharshachaturvedula/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs /Users/sriharshachaturvedula/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs /Users/sriharshachaturvedula/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs /Users/sriharshachaturvedula/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs /Users/sriharshachaturvedula/Desktop/Development/atlas/ap-landeed/scraper/target/debug/build/serde-e3d2ca0fe7aaa51b/out/private.rs
+
+/Users/sriharshachaturvedula/Desktop/Development/atlas/ap-landeed/scraper/target/debug/deps/libserde-5ccd028a1b2a365a.rmeta: /Users/sriharshachaturvedula/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs /Users/sriharshachaturvedula/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs /Users/sriharshachaturvedula/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs /Users/sriharshachaturvedula/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs /Users/sriharshachaturvedula/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs /Users/sriharshachaturvedula/Desktop/Development/atlas/ap-landeed/scraper/target/debug/build/serde-e3d2ca0fe7aaa51b/out/private.rs
+
+/Users/sriharshachaturvedula/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs:
+/Users/sriharshachaturvedula/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs:
+/Users/sriharshachaturvedula/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs:
+/Users/sriharshachaturvedula/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs:
+/Users/sriharshachaturvedula/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs:
+/Users/sriharshachaturvedula/Desktop/Development/atlas/ap-landeed/scraper/target/debug/build/serde-e3d2ca0fe7aaa51b/out/private.rs:
+
+# env-dep:OUT_DIR=/Users/sriharshachaturvedula/Desktop/Development/atlas/ap-landeed/scraper/target/debug/build/serde-e3d2ca0fe7aaa51b/out
